@@ -1,0 +1,142 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: skyblue;
+}
+
+#container{
+
+    background: rgb(11, 15, 130);
+    width: 70%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#pink{
+
+    background: rgb(250, 0, 0);
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrip;
+    
+    
+}
+
+#red{
+
+    background: rgb(255, 255, 255);
+    width: 150px;
+    height: 100px;
+    
+}
+
+#orange{
+
+    background: rgb(255, 128, 0);
+    width: 150px;
+    height: 100px;
+    
+}
+#purple{
+
+    background: rgb(128, 255, 0);
+    width: 150px;
+    height: 100px;
+    
+}
+
+#blue{
+
+    background: rgb(0, 255, 255);
+    width: 150px;
+    height: 100px;
+    
+}
+
+#green{
+
+    background: rgb(0, 0, 255);
+    width: 150px;
+    height: 100px;
+    
+}
+
+
+
+
+/*<!- second div skill section  properties -->*/
+
+.skill-display{
+
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+
+.skill-progress{
+
+    width: 7rem;
+    height: 1.4rem;
+    background-color: lightgrey; 
+    border-radius: 0.8rem;
+ /*   border: 2px solid black ;*/
+}
+.mb-blue{
+
+    background-color: green;
+}
+
+.eight-five-percent{
+
+    width: 85%;
+    height: inherit;
+}
+
+.skill-name span{
+
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.skill-progress>div{
+
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+
+
+/*  third properties section */ 
+
+
+
+
+#main{
+
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    border: 2px solid black;
+   /* background-image: linear-gradient(to top right, red, cyan,blue);*/
+   background: repeating-radial-gradient(red,cyan,blue);
+
+
+
+}
